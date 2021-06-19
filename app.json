@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ToDoList",
+    "slug": "ToDoList",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/todoLogo.png",
+    "splash": {
+      "image": "./assets/todoLogo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A simple todo application that allows user to create a task list and in that list he/she can create sub task, each task list and task can be updated or deleted as per user choice",
+    "githubUrl": "https://github.com/abdullahmujahidali/ToDoApp-Project-RN-"
+  }
+}
